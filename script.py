@@ -166,7 +166,7 @@ class YandexMapsParser:
                 no_change_count = 0
                 last_count = current_count
             
-            print(f"  📜 Прокрутка {scroll_count + 1}...")
+            print(f"Прокрутка {scroll_count + 1}...")
             
             body.send_keys(Keys.PAGE_DOWN)
             time.sleep(0.08)
